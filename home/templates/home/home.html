@@ -1,12 +1,16 @@
-<div>
+{% extends 'home/base.html' %}
+{% block content %}
+<div class="container">
+    <div>
       Start ya party!
-  </div>
+    </div>
 
   <div>
       Join a parteey!
   </div>
+</div>
 
-  <div>
+  <div class="container">
       <div class="text-muted">
           Log in.
       </div>
@@ -15,3 +19,4 @@
           Register
       </div>
   </div>
+{% endblock content%}
